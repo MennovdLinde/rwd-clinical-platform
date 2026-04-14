@@ -5,7 +5,7 @@ import QualityPanel from './components/QualityPanel';
 import PatientTable from './components/PatientTable';
 import AuditLog from './components/AuditLog';
 
-const BASE = import.meta.env.VITE_API_URL ?? 'http://localhost:3002';
+const BASE = import.meta.env.VITE_API_URL ?? 'https://rwd-clinical-platform-api-549365bb5f89.herokuapp.com';
 
 // Demo API keys (match seed data)
 const ADMIN_KEY      = 'rwd-admin-key';
